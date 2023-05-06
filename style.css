@@ -4001,6 +4001,13 @@ h1.tanks-message {
 	padding: 30px;
 	margin-right: 30px;
 }
+.product-content {
+	background-color: rgba(255, 255, 255, 0.96); 
+	box-shadow: 0px 2px 3px 0px rgba(112, 112, 112, 0.3); 
+	padding: 30px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
 /********************** Sitemap **********************/
 
 .sitemap {
