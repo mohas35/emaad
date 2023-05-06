@@ -70,7 +70,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12 col-lg-8">
-            <div class="top-contact"> <a href="#"><i class="fa fa-envelope"></i> jawaad@emaadinternational.com</a> <a href="#"><i class="fa fa-phone"></i> +91 99161 62462</a> <!--a href="#"><i class="far fa-clock"></i> 9:00AM to 8:00PM IST </a--> </div>
+            <div class="top-contact"> <a href="#"><i class="fa fa-envelope"></i> info@emaadinternational.com</a--> <!--<a href="#"><i class="fa fa-phone"></i> +91 99161 62462</a> <!--a href="#"><i class="far fa-clock"></i> 9:00AM to 8:00PM IST </a--> </div>
           </div>
           <div class="col-12 col-lg-4 d-flex justify-content-center justify-content-lg-end">
             <!-- <div class="top-menu">
@@ -486,83 +486,101 @@
   </div> --> 
   <!-- service process start --> 
  
-  <!-- Get Quote start -->
-  <div class="home-quote" id="getAQuoteDiv">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 wow fadeInLeft">
-          <h2>GET A FREE QUOTE</h2>
-          <h6>we always use best & fastest fleets</h6>
-          <div class="quote-form">
-            <form data-toggle="validator" action="index.html">
-              <div class="row">
-                <div class="col-12">
-                  <div class="form-group">
-                    <input class="form-control" data-error="Please enter name field." id="inputName" placeholder="Full Name/Company Name" type="text" required />
-                    <div class="help-block with-errors"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-12">
-                  <div class="form-group">
-                      <input type="text" class="form-control" id="Product" placeholder="Product" required/>
-                    <div class="help-block with-errors"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-12 col-lg-6">
-                  <div class="form-group">
-                    <input type="email" class="form-control" id="inputEmail" placeholder="Email" required />
-                    <div class="help-block with-errors"></div>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-6">
-                  <div class="form-group">
-                    <input type="text" class="form-control" id="inputMobile" placeholder="Mobile" required />
-                    <div class="help-block with-errors"></div>
-                  </div>
-                </div>
-              </div>
-              
-              <div class="row">
-                <div class="col-12 col-lg-6">
-                  <div class="form-group">
-                    <input type="text" class="form-control" id="Quantity" placeholder="Quantity in tons" required />
-                    <div class="help-block with-errors"></div>
-                  </div>
-                </div>
-                <div class="col-12 col-lg-6">
-                  <div class="form-group">
-                    <input type="text" class="form-control" id="Destination" placeholder="Destination" required />
-                    <div class="help-block with-errors"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-12">
-                  <div class="form-group">
-                    <textarea class="form-control text-area" data-error="Please enter Message." id="textMessage" placeholder="Please mention your query in detail
-" required></textarea>
-                    <div class="help-block with-errors"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-12">
-                  <div class="form-group">
-                    <button class="wshipping-button cta-btn" type="submit">Send us quote</button>
-                  </div>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Get quote End --> 
+			<!-- Get Quote start -->
+			<div class="home-quote" id="getAQuoteDiv">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 wow fadeInLeft">
+							<h2>GET A FREE QUOTE</h2>
+							<h6>we always use best & fastest fleets</h6>
+							<div class="quote-form">
+								<form data-toggle="validator" action="index.html">
+									<div class="row">
+										<div class="col-12">
+											<div class="form-group">
+												<input class="form-control"
+													data-error="Please enter name field." id="inputName"
+													placeholder="Full Name/Company Name" type="text" required />
+												<div class="help-block with-errors"></div>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-12 col-lg-6">
+											<div class="form-group">
+												<input type="email" class="form-control" id="inputEmail"
+													placeholder="Email" required />
+												<div class="help-block with-errors"></div>
+											</div>
+										</div>
+										<div class="col-12 col-lg-6">
+											<div class="form-group">
+												<input type="text" class="form-control" id="inputMobile"
+													placeholder="Mobile" required />
+												<div class="help-block with-errors"></div>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-12 col-lg-6">
+											<div class="form-group">
+												<input type="text" class="form-control" id="Product"
+													placeholder="Product" required />
+												<div class="help-block with-errors"></div>
+											</div>
+										</div>
+										<div class="col-12 col-lg-6">
+											<div class="form-group">
+												<input type="text" class="form-control" id="quantityInTons"
+													placeholder="Quantity (in Tons)" required />
+												<div class="help-block with-errors"></div>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="row">
+										<div class="col-12 col-lg-6">
+											<div class="form-group">
+												<input type="text" class="form-control" id="DestinationFrom"
+													placeholder="Destination From" required />
+												<div class="help-block with-errors"></div>
+											</div>
+										</div>
+										<div class="col-12 col-lg-6">
+											<div class="form-group">
+												<input type="text" class="form-control" id="DestinationTo"
+													placeholder="Destination To" required />
+												<div class="help-block with-errors"></div>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-12">
+											<div class="form-group">
+												<textarea class="form-control text-area"
+													data-error="Please enter Message." id="textMessage"
+													placeholder="Please mention your query in detail"
+													required></textarea>
+												<div class="help-block with-errors"></div>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-12">
+											<div class="form-group">
+												<button class="wshipping-button cta-btn" type="submit">Send
+													us quote</button>
+											</div>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Get quote End -->
   
   
   <!-- Latest blog start 
